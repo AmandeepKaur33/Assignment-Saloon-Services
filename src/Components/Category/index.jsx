@@ -12,7 +12,6 @@ const CategoryServices = () => {
   };
 
   const scrollToSection = (ref) => {
-    console.log(ref.current);
     sectionRefs.current[ref].scrollIntoView({
       behavior: 'smooth',
       block: 'start'
