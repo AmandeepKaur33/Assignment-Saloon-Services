@@ -224,10 +224,7 @@
   line-height: 20px;
   margin-top: 12px;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 @media screen and (max-width: 640px) {
   .App{
     padding: 20px 15px;
