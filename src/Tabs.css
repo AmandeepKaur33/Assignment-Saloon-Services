@@ -1,0 +1,83 @@
+tabs-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: calc(100% - 80px); /* Adjust according to the size of arrow buttons */
+    margin: 0 40px; /* Add space for arrow buttons */
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  
+  .tabs button.active {
+    border-bottom: 3px solid #007bff;
+    font-weight: bold;
+  }
+  
+  .scroll-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .scroll-btn.left {
+    left: 0;
+  }
+  
+  .scroll-btn.right {
+    right: 0;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .service-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .service-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }

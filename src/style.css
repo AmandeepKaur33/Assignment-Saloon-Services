@@ -1,0 +1,48 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #121212;
+    color: aliceblue;
+  }
+  
+  .main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .flex-col {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .flex-col:hover {
+    color: brown;
+  }
+  
+  .active-tab,
+  .non-active-tab {
+    width: 100%;
+    height: 4px;
+    background: brown;
+    margin-top: 8px;
+    transition: all .5s ease;
+  }
+  
+  .non-active-tab {
+    background-color: transparent;
+  }
+  
