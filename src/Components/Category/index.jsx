@@ -17,12 +17,6 @@ const CategoryServices = () => {
       behavior: 'smooth',
       block: 'start'
     })
-    // window.scrollTo({top: ref.current.offsetTop, behavior: 'smooth'})
-    // if (ref && ref.current) {
-    //   ref.scrollIntoView({ behavior: "smooth", block: "start" });
-    // } else {
-    //   console.warn("Reference is undefined or null", ref);
-    // }
   };
 
   const scrollRight = () => {

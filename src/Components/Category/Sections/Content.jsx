@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuData } from '../../data/menuData';
 import { services } from '../../data/servicesData';
 
-const Content = ({ sectionRefs, activeTab }) => {
+const Content = ({ sectionRefs }) => {
   return (
     <div className='services-wrapper'>
       {MenuData.map((item, index) => (
